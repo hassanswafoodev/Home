@@ -8,64 +8,65 @@
 </head>
 <body>
     <header>
-        <h1>Blessing App</h1>
+        <img src="logo.png" alt="Blessing App Logo" id="logo" />
         <nav>
-            <a href="#about">About Us</a>
-            <a href="#features">Features</a>
-            <a href="#subscription">Subscription</a>
-            <a href="#contact">Contact Us</a>
-            <a href="terms.html">Terms of Service</a>
-            <a href="privacy.html">Privacy Policy</a>
+            <a href="#about" data-i18n="about">About Us</a>
+            <a href="#features" data-i18n="features">Features</a>
+            <a href="#subscription" data-i18n="subscription">Subscription</a>
+            <a href="#contact" data-i18n="contact">Contact Us</a>
+            <a href="terms.html" data-i18n="terms">Terms of Service</a>
+            <a href="privacy.html" data-i18n="privacy">Privacy Policy</a>
+            <select id="language-select">
+                <option value="en">English</option>
+                <option value="ar">عربي</option>
+            </select>
         </nav>
     </header>
 
     <main>
         <section id="hero">
-            <img src="path-to-your-image.jpg" alt="Blessing App Image" />
-            <h2>Welcome to Blessing App</h2>
-            <p>Welcome to Blessing App, a mobile application designed to help you cultivate gratitude and positivity in your daily life. Our mission is to provide a simple and effective tool for people to express gratitude, set positive intentions, and receive blessings from others.</p>
+            <img src="hero-image.jpg" alt="Blessing App Image" />
+            <h2 data-i18n="welcome">Welcome to Blessing App</h2>
+            <p data-i18n="welcome-text">Welcome to Blessing App, a mobile application designed to help you cultivate gratitude and positivity in your daily life. Our mission is to provide a simple and effective tool for people to express gratitude, set positive intentions, and receive blessings from others.</p>
         </section>
 
         <section id="about">
-            <h2>About Us</h2>
-            <p>Our app allows you to create a personalized gratitude journal, where you can record the things you are thankful for each day. You can also set daily reminders to take a moment to reflect on the blessings in your life.</p>
-            <p>But that's not all – with Blessing App, you can also send blessings to others and receive them in return. Simply select a friend or family member from your contacts and send them a positive message or wish them well. You can also browse through a collection of pre-written blessings and send them to anyone you choose.</p>
-            <p>At Blessing App, we believe that cultivating a grateful heart and positive mindset can have a profound impact on our lives and the world around us. We hope that our app will inspire you to focus on the good in your life and spread positivity wherever you go.</p>
-            <p>Thank you for choosing Blessing App as your gratitude companion. If you have any questions or feedback, please don't hesitate to reach out to us at <a href="mailto:support@swafoo.com">support@swafoo.com</a>.</p>
+            <h2 data-i18n="about-title">About Us</h2>
+            <p data-i18n="about-content">Our app allows you to create a personalized gratitude journal, where you can record the things you are thankful for each day. You can also set daily reminders to take a moment to reflect on the blessings in your life.</p>
+            <p data-i18n="about-content-2">But that's not all – with Blessing App, you can also send blessings to others and receive them in return. Simply select a friend or family member from your contacts and send them a positive message or wish them well. You can also browse through a collection of pre-written blessings and send them to anyone you choose.</p>
+            <p data-i18n="about-content-3">At Blessing App, we believe that cultivating a grateful heart and positive mindset can have a profound impact on our lives and the world around us. We hope that our app will inspire you to focus on the good in your life and spread positivity wherever you go.</p>
+            <p data-i18n="contact-thank-you">Thank you for choosing Blessing App as your gratitude companion. If you have any questions or feedback, please don't hesitate to reach out to us at <a href="mailto:support@swafoo.com">support@swafoo.com</a>.</p>
         </section>
 
         <section id="features">
-            <h2>Features</h2>
+            <h2 data-i18n="features-title">Features</h2>
             <div class="feature-item">
-                <img src="iconOnBoarding1.jpg" alt="Easy access to Masjed" />
-                <h3>Easy access to Masjed</h3>
-                <p>Find all the Masjids around you and around the world. Never miss an event or iqama time again! إن شاء الله</p>
+                <img src="feature1.jpg" alt="Easy access to Masjed" />
+                <h3 data-i18n="feature1-title">Easy access to Masjed</h3>
+                <p data-i18n="feature1-content">Find all the Masjids around you and around the world. Never miss an event or iqama time again! إن شاء الله</p>
             </div>
             <div class="feature-item">
-                <img src="iconOnBoarding2.jpg" alt="Discover nearby Masjed" />
-                <h3>Discover nearby Masjed</h3>
-                <p>Find the popular masjeds near you.</p>
+                <img src="feature2.jpg" alt="Discover nearby Masjed" />
+                <h3 data-i18n="feature2-title">Discover nearby Masjed</h3>
+                <p data-i18n="feature2-content">Find the popular masjeds near you.</p>
             </div>
             <div class="feature-item">
-                <img src="iconOnBoarding1.jpg" alt="Event Guide" />
-                <h3>Event Guide</h3>
-                <p>Find events by language, location, specific to your gender, and many more… you can now know all the events without visiting a location and following many pages on social accounts</p>
+                <img src="feature3.jpg" alt="Event Guide" />
+                <h3 data-i18n="feature3-title">Event Guide</h3>
+                <p data-i18n="feature3-content">Find events by language, location, specific to your gender, and many more… you can now know all the events without visiting a location and following many pages on social accounts</p>
             </div>
         </section>
 
         <section id="subscription">
-            <h2>Subscription Plans</h2>
-            <p>- Create an unlimited number of events</p>
-            <p>- Helps keep the APP ads free and supports future updates</p>
-            <p>- Future Perks: Chat with other users, Free access to the online Islamic School</p>
-            <p><strong>Free Plan:</strong> Create Masjeds and 1 unpaid event</p>
-            <p><strong>Monthly Plan:</strong> $9.99 - All features included</p>
-            <p><strong>Yearly Plan:</strong> $99.99 - All features included</p>
+            <h2 data-i18n="subscription-title">Subscription Plans</h2>
+            <p data-i18n="free-plan">Free Plan: Create Masjeds and 1 unpaid event</p>
+            <p data-i18n="monthly-plan">Monthly Plan: $9.99 - All features included</p>
+            <p data-i18n="yearly-plan">Yearly Plan: $99.99 - All features included</p>
         </section>
 
         <section id="contact">
-            <h2>Contact Us</h2>
-            <p>If you have any questions or feedback, please don't hesitate to reach out to us at <a href="mailto:support@swafoo.com">support@swafoo.com</a>.</p>
+            <h2 data-i18n="contact-title">Contact Us</h2>
+            <p data-i18n="contact-info">If you have any questions or feedback, please don't hesitate to reach out to us at <a href="mailto:support@swafoo.com">support@swafoo.com</a>.</p>
         </section>
     </main>
 
