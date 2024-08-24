@@ -3,75 +3,144 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blessing App</title>
+    <title>Blessing App - Cultivate Gratitude, Share Blessings</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <img src="logo.png" alt="Blessing App Logo" id="logo" />
+        <img src="logo.png" alt="Blessing App Logo" id="logo">
         <nav>
-            <a href="#about" data-i18n="about">About Us</a>
-            <a href="#features" data-i18n="features">Features</a>
-            <a href="#subscription" data-i18n="subscription">Subscription</a>
-            <a href="#contact" data-i18n="contact">Contact Us</a>
-            <a href="terms.html" data-i18n="terms">Terms of Service</a>
-            <a href="privacy.html" data-i18n="privacy">Privacy Policy</a>
-            <select id="language-select">
+            <a href="#about">About</a>
+            <a href="#features">Features</a>
+            <a href="#subscription">Subscription</a>
+            <a href="#contact">Contact</a>
+            <!-- <select id="language-select">
                 <option value="en">English</option>
                 <option value="ar">عربي</option>
-            </select>
+            </select> -->
         </nav>
     </header>
 
     <main>
         <section id="hero">
-            <img src="background.png" alt="Blessing App Image" />
-            <h2 data-i18n="welcome">Welcome to Blessing App</h2>
-            <p data-i18n="welcome-text">Welcome to Blessing App, a mobile application designed to help you cultivate gratitude and positivity in your daily life. Our mission is to provide a simple and effective tool for people to express gratitude, set positive intentions, and receive blessings from others.</p>
+            <h1 style="text-shadow: 0 0 3px #4CAF50, 0 0 5px #0000FF;">Cultivate Gratitude, Share Blessings</h1>
+            <p style="text-shadow: 0 0 3px #4CAF50, 0 0 5px #0000FF; margin-bottom: 10px;">Your daily companion for positivity and spiritual growth</p>
+            <!-- <img src="hero.jpeg" class="hero_img"> -->
+            <div class="cta-buttons">
+                <a href="#cta" class="cta-button">Download Now</a>
+            </div>
         </section>
 
-        <section id="about">
-            <h2 data-i18n="about-title">About Us</h2>
-            <p data-i18n="about-content">Our app allows you to create a personalized gratitude journal, where you can record the things you are thankful for each day. You can also set daily reminders to take a moment to reflect on the blessings in your life.</p>
-            <p data-i18n="about-content-2">But that's not all – with Blessing App, you can also send blessings to others and receive them in return. Simply select a friend or family member from your contacts and send them a positive message or wish them well. You can also browse through a collection of pre-written blessings and send them to anyone you choose.</p>
-            <p data-i18n="about-content-3">At Blessing App, we believe that cultivating a grateful heart and positive mindset can have a profound impact on our lives and the world around us. We hope that our app will inspire you to focus on the good in your life and spread positivity wherever you go.</p>
-            <p data-i18n="contact-thank-you">Thank you for choosing Blessing App as your gratitude companion. If you have any questions or feedback, please don't hesitate to reach out to us at <a href="mailto:support@swafoo.com">support@swafoo.com</a>.</p>
+        <section id="mission">
+            <h2>Our Mission</h2>
+            <p>Blessing App is designed to help you cultivate gratitude, connect with your spiritual practices, and foster a sense of community. We believe that daily reflection and sharing positivity can transform lives.</p>
         </section>
 
         <section id="features">
-            <h2 data-i18n="features-title">Features</h2>
-            <div class="feature-item">
-                <img src="feature1.jpg" alt="Easy access to Masjed" />
-                <h3 data-i18n="feature1-title">Easy access to Masjed</h3>
-                <p data-i18n="feature1-content">Find all the Masjids around you and around the world. Never miss an event or iqama time again! إن شاء الله</p>
+            <h2>Key Features</h2>
+            <div class="feature-grid">
+                <div class="feature-item">
+                    <img src="feature1.jpg" alt="Gratitude Journal">
+                    <h3>Gratitude Journal</h3>
+                    <p>Record daily blessings and reflections</p>
+                </div>
+                <div class="feature-item">
+                    <img src="feature2.jpg" alt="Masjid Finder">
+                    <h3>Masjid Finder</h3>
+                    <p>Discover nearby mosques and prayer times</p>
+                </div>
+                <div class="feature-item">
+                    <img src="Give-me-five1.png" alt="Blessing Exchange">
+                    <h3>Blessing Exchange</h3>
+                    <p>Send and receive blessings with friends and family</p>
+                </div>
+                <div class="feature-item">
+                    <img src="Ads2.png" alt="Event Guide">
+                    <h3>Event Guide</h3>
+                    <p>Find Islamic events tailored to your preferences</p>
+                </div>
             </div>
-            <div class="feature-item">
-                <img src="feature2.jpg" alt="Discover nearby Masjed" />
-                <h3 data-i18n="feature2-title">Discover nearby Masjed</h3>
-                <p data-i18n="feature2-content">Find the popular masjeds near you.</p>
+        </section>
+
+        <section id="how-it-works">
+            <h2>How It Works</h2>
+            <div class="steps"> 
+                <div class="step">
+                    <img src="frame.png" alt="frame" class="frame" >
+                    <img src="step1-icon.jpg" alt="Step 1">
+                    <p>Download the app</p>
+                </div>
+                <div class="step">
+                        <img src="frame.png" alt="frame" class="frame" >
+                        <img src="step2-icon.png" alt="Step 2">
+                    <p>Create your account</p>
+                </div>
+                <div class="step">
+                    <img src="frame.png" alt="frame" class="frame" >
+                    <img src="step3-icon.png" alt="Step 3">
+                    <p>Start your gratitude journey</p>
+                </div>
             </div>
-            <div class="feature-item">
-                <img src="feature1.jpg" alt="Event Guide" />
-                <h3 data-i18n="feature3-title">Event Guide</h3>
-                <p data-i18n="feature3-content">Find events by language, location, specific to your gender, and many more… you can now know all the events without visiting a location and following many pages on social accounts</p>
+        </section>
+
+        <section id="testimonials">
+            <h2>What Our Users Say</h2>
+            <div class="testimonial">
+                <p>"Blessing App has transformed my daily routine. I feel more connected to my faith and community."</p>
+                - Ahmed M.
             </div>
         </section>
 
         <section id="subscription">
-            <h2 data-i18n="subscription-title">Subscription Plans</h2>
-            <p data-i18n="free-plan">Free Plan: Create Masjeds and 1 unpaid event</p>
-            <p data-i18n="monthly-plan">Monthly Plan: $9.99 - All features included</p>
-            <p data-i18n="yearly-plan">Yearly Plan: $99.99 - All features included</p>
+            <h2>Subscription Plans</h2>
+            <div class="plan">
+                <h3>Free Plan</h3>
+                <p>Basic features included</p>
+            </div>
+            <div class="plan">
+                <h3>Monthly Plan</h3>
+                <p>$9.99/month - All features included</p>
+            </div>
+            <div class="plan">
+                <h3>Yearly Plan</h3>
+                <p>$99.99/year - All features included (Save 17%)</p>
+            </div>
         </section>
 
-        <section id="contact">
-            <h2 data-i18n="contact-title">Contact Us</h2>
-            <p data-i18n="contact-info">If you have any questions or feedback, please don't hesitate to reach out to us at <a href="mailto:support@swafoo.com">support@swafoo.com</a>.</p>
+        <section id="cta">
+            <h2>Join Our Blessing Community Today</h2>
+            <div class="app-buttons">
+                <a href="https://itunes.apple.com/app/6445897442" class="app-button">
+                    <img src="app-store.png" alt="Download on App Store">
+                </a>
+                <a href="https://play.google.com/store/apps/details?id=com.blessings.app" class="app-button">
+                    <img src="google-play.png" alt="Get it on Google Play">
+                </a>
+            </div>
         </section>
     </main>
 
     <footer>
         <p>&copy; 2024 Blessing App. All rights reserved.</p>
+        <a href="terms.html">Terms of Service</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <div class="social-icons">
+            <a href="#">
+                <!-- <img src="facebook-icon.png" alt="Facebook"> -->
+                <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="ui-svg-inline"><path d="M20.9,2H3.1A1.1,1.1,0,0,0,2,3.1V20.9A1.1,1.1,0,0,0,3.1,22h9.58V14.25h-2.6v-3h2.6V9a3.64,3.64,0,0,1,3.88-4,20.26,20.26,0,0,1,2.33.12v2.7H17.3c-1.26,0-1.5.6-1.5,1.47v1.93h3l-.39,3H15.8V22h5.1A1.1,1.1,0,0,0,22,20.9V3.1A1.1,1.1,0,0,0,20.9,2Z"></path></svg>
+            </a>
+
+            <a href="#">
+                <!-- <img src="twitter-icon.png" alt="Twitter"> -->
+                <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="ui-svg-inline"><path d="M17.34,5.46h0a1.2,1.2,0,1,0,1.2,1.2A1.2,1.2,0,0,0,17.34,5.46Zm4.6,2.42a7.59,7.59,0,0,0-.46-2.43,4.94,4.94,0,0,0-1.16-1.77,4.7,4.7,0,0,0-1.77-1.15,7.3,7.3,0,0,0-2.43-.47C15.06,2,14.72,2,12,2s-3.06,0-4.12.06a7.3,7.3,0,0,0-2.43.47A4.78,4.78,0,0,0,3.68,3.68,4.7,4.7,0,0,0,2.53,5.45a7.3,7.3,0,0,0-.47,2.43C2,8.94,2,9.28,2,12s0,3.06.06,4.12a7.3,7.3,0,0,0,.47,2.43,4.7,4.7,0,0,0,1.15,1.77,4.78,4.78,0,0,0,1.77,1.15,7.3,7.3,0,0,0,2.43.47C8.94,22,9.28,22,12,22s3.06,0,4.12-.06a7.3,7.3,0,0,0,2.43-.47,4.7,4.7,0,0,0,1.77-1.15,4.85,4.85,0,0,0,1.16-1.77,7.59,7.59,0,0,0,.46-2.43c0-1.06.06-1.4.06-4.12S22,8.94,21.94,7.88ZM20.14,16a5.61,5.61,0,0,1-.34,1.86,3.06,3.06,0,0,1-.75,1.15,3.19,3.19,0,0,1-1.15.75,5.61,5.61,0,0,1-1.86.34c-1,.05-1.37.06-4,.06s-3,0-4-.06A5.73,5.73,0,0,1,6.1,19.8,3.27,3.27,0,0,1,5,19.05a3,3,0,0,1-.74-1.15A5.54,5.54,0,0,1,3.86,16c0-1-.06-1.37-.06-4s0-3,.06-4A5.54,5.54,0,0,1,4.21,6.1,3,3,0,0,1,5,5,3.14,3.14,0,0,1,6.1,4.2,5.73,5.73,0,0,1,8,3.86c1,0,1.37-.06,4-.06s3,0,4,.06a5.61,5.61,0,0,1,1.86.34A3.06,3.06,0,0,1,19.05,5,3.06,3.06,0,0,1,19.8,6.1,5.61,5.61,0,0,1,20.14,8c.05,1,.06,1.37.06,4S20.19,15,20.14,16ZM12,6.87A5.13,5.13,0,1,0,17.14,12,5.12,5.12,0,0,0,12,6.87Zm0,8.46A3.33,3.33,0,1,1,15.33,12,3.33,3.33,0,0,1,12,15.33Z"></path></svg>
+            </a>
+            <a href="#">
+                <!-- <img src="instagram-icon.png" alt="Instagram"> -->
+                <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="ui-svg-inline"><path d="M22,5.8a8.49,8.49,0,0,1-2.36.64,4.13,4.13,0,0,0,1.81-2.27,8.21,8.21,0,0,1-2.61,1,4.1,4.1,0,0,0-7,3.74A11.64,11.64,0,0,1,3.39,4.62a4.16,4.16,0,0,0-.55,2.07A4.09,4.09,0,0,0,4.66,10.1,4.05,4.05,0,0,1,2.8,9.59v.05a4.1,4.1,0,0,0,3.3,4A3.93,3.93,0,0,1,5,13.81a4.9,4.9,0,0,1-.77-.07,4.11,4.11,0,0,0,3.83,2.84A8.22,8.22,0,0,1,3,18.34a7.93,7.93,0,0,1-1-.06,11.57,11.57,0,0,0,6.29,1.85A11.59,11.59,0,0,0,20,8.45c0-.17,0-.35,0-.53A8.43,8.43,0,0,0,22,5.8Z"></path></svg>
+            </a>
+            </div>
+        <p>Contact: <a href="mailto:support@blessingapp.com">support@blessingapp.com</a></p>
     </footer>
 
     <script src="script.js"></script>
